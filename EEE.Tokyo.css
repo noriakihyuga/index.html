@@ -1,0 +1,102 @@
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+body{
+  font-family:"Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+.header{
+    background-color: #26d0c9;
+    color: #fff;
+    height: 90px;
+}
+header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list {
+  float: left;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(http://www.australiancolonhealth.com.au/wp-content/uploads/2018/02/coffee-enema-768x428.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.top-wrapper h1 {
+  opacity: 01;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+}
+
+/* btnクラスのCSSを指定してください */
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+}
+
+/* signupクラスのCSSを指定してください */
+.signup {
+  background-color: #239b76;
+}
+
+/* facebookクラスのCSSを指定してください */
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+/* twitterクラスのCSSを指定してください */
+.twitter {
+  background-color: #55acee;
+}
+
+/* btn-wrapperクラスのCSSを指定してください */
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+/* btn-wrapperクラスの中にある<p>のCSSを指定してください */
+.btn-wrapper p {
+  margin: 10px 0;
+}
